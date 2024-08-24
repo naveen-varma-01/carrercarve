@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  margin-top: 20px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.error-message{
+  color:red;
+}
+
+.booking-form input, 
+.booking-form select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.mentor-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.mentor-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mentor-list-container li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.mentor-list-container li:hover {
+  background-color: #f5f5f5;
+}
+
+.payment-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.payment-page-container p {
+  margin: 10px 0;
+}
+
+.payment-page-container button {
+  margin-top: 20px;
+}
+
+/* src/App.css */
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.role-button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.student-home-container, .mentor-home-container {
+  text-align: center;
+  margin-top: 50px;
+}
